@@ -1,0 +1,57 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "vim.foldfix": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<leader>", "h"],
+            "commands": [":set hlsearch!"]
+        }
+    ],
+    "vim.easymotionIncSearchForegroundColor": "",
+    "editor.selectionHighlight": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.renderLineHighlight": "gutter",
+    "vim.searchHighlightColor": "#BEAFC2",
+    "vim.searchHighlightTextColor": "#281C2D",
+    "editor.rulers": [
+        80, 100, 120
+    ],
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "vim.highlightedyank.enable": true,
+    "terminal.integrated.scrollback": 10000,
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["u"],
+            "after": [],
+            "commands": [{"command": "undo"}]
+        },
+        {
+            "before": ["<C-r>"],
+            "after": [],
+            "commands": [{"command": "redo"}]
+        }
+    ],
+    "vim.commandLineModeKeyBindings": [
+
+    ],
+    "editor.cursorSurroundingLines": 7,
+    "editor.scrollBeyondLastColumn": 20,
+
+    "[python]": {
+        "editor.formatOnType": true
+    },
+
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "python.createEnvironment.trigger": "off",
+}
